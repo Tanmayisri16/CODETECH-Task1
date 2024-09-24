@@ -21,18 +21,27 @@ The primary goal of this project is to develop a Java program that allows users 
 Features
 
 The project implements several core features:
+
 Grade Input: The user can input numerical grades for multiple subjects or assignments.
+
 Grade Calculation: The program calculates the average of all entered grades.
+
 Letter Grade Assignment: The program converts the numeric average into a letter grade (A-F) using a standard grading scale.
+
 GPA Calculation: The GPA is calculated on a 4.0 scale based on the average grade.
+
 Result Display: After processing the inputs, the program displays the average grade, letter grade, and GPA for the student.
 
 Program Flow
 
 The user is prompted to input the number of subjects or assignments.
+
 The program then iterates over each subject to collect the respective grade from the user.
+
 After gathering all the grades, the program computes the average.
+
 The average grade is passed through methods that convert it to both a letter grade and a GPA.
+
 Finally, the results are displayed, showing the average grade, letter grade, and GPA.
 
 Conclusion
