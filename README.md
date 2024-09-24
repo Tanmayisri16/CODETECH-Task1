@@ -32,7 +32,7 @@ The project implements several core features:
 4. The average grade is passed through methods that convert it to both a letter grade and a GPA.
 5. Finally, the results are displayed, showing the average grade, letter grade, and GPA.
 
-### Sample Output
+### Output
 
 Here is a sample output of the program:
 
