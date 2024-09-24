@@ -1,0 +1,78 @@
+// Java program for student grade tracker
+// details such as average,letter grade and gpa are present
+
+import java.lang.*;
+import java.util.*;
+class studentgrademanager
+{
+	public static void main(String [] args)
+	{
+		int n,t=0; //number of subjects
+		Scanner S = new Scanner(System.in);
+		System.out.println("Enter the number of subjects: ");
+		n = S.nextInt();
+		int [] grade = new int[n]; //grades of the students
+		for(int i=0;i<n;i++)
+		{
+			System.out.println("Enter the grade for subject "+(i+1));
+			grade[i] = S.nextInt();
+			t += grade[i]; // total grade
+		}
+		double averagegrade = t/n;
+		String lettergrade = Letter(averagegrade);
+		double gpa = GPA(averagegrade);
+		System.out.println("Grade results of the student are: ");
+		System.out.println("Average grade of the students are "+ averagegrade);
+		System.out.println("Letter grade of the students are "+ lettergrade);
+		System.out.println("GPA of the students are "+ gpa);
+	}
+	public static String Letter(double averagegrade)
+	{
+		if(averagegrade > 90)
+		{
+			return "A";
+		}
+		else if(averagegrade >80 && averagegrade <= 90)
+		{
+			return "B";
+		}
+		else if(averagegrade >70 && averagegrade <=80)
+		{
+			return "C";
+		}
+		else if(averagegrade >60 && averagegrade <=70)
+		{
+			return "D";
+		}
+		else 
+		{
+			return "Fail";
+		}
+	}
+	public static double GPA(double averagegrade)
+	{
+		if(averagegrade > 90)
+		{
+			return 10.0;
+		}
+		else if(averagegrade >80 && averagegrade <= 90)
+		{
+			return 9.0;
+		}
+		else if(averagegrade >70 && averagegrade <=80)
+		{
+			return 8.0;
+		}
+		else if(averagegrade >60 && averagegrade <=70)
+		{
+			return 7.0;
+		}
+		else 
+		{
+			return 0;
+		}
+	}
+}
+		
+		
+	
