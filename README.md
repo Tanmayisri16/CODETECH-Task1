@@ -1,7 +1,7 @@
-Name: G.Tanmayi sri
-Company: CODETECH IT SOLUTIONS
-ID: CT08DS7624
-Domain: Java Programming
+Name: G.Tanmayi sri \n
+Company: CODETECH IT SOLUTIONS \n
+ID: CT08DS7624 \n
+Domain: Java Programming \n
 Duration: September to October 2024
 
 OVERVIEW OF THE PROJECT
