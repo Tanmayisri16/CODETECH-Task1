@@ -1,12 +1,19 @@
 Name: G.Tanmayi sri 
+
 Company: CODETECH IT SOLUTIONS 
+
 ID: CT08DS7624
+
 Domain: Java Programming 
+
 Duration: September to October 2024
 
 OVERVIEW OF THE PROJECT
+
 Project: STUDENT GRADE TRACKER
+
 ![Alt text](blob:https://web.whatsapp.com/92abcd2b-6699-47bd-aa90-422ab588ac0a)
+
 Objective
 
 The primary goal of this project is to develop a Java program that allows users to input and manage student grades. The program will handle multiple subjects or assignments, calculate the average grade, and display the overall grade along with additional information such as a letter grade and GPA (Grade Point Average).
