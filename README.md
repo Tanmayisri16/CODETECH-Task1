@@ -36,7 +36,7 @@ The project implements several core features:
 
 Here is a sample output of the program:
 
-![Output](<>)
+![Output](<https://github.com/Tanmayisri16/CODETECH-Task1/blob/main/image%20copy%20from%20dhruvgupta3035.jpeg?raw=true>)
 
 
 ### Conclusion
