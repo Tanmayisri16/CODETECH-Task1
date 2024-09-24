@@ -32,6 +32,13 @@ The project implements several core features:
 4. The average grade is passed through methods that convert it to both a letter grade and a GPA.
 5. Finally, the results are displayed, showing the average grade, letter grade, and GPA.
 
+### Sample Output
+
+Here is a sample output of the program:
+
+![Output](<>)
+
+
 ### Conclusion
 
 The Student Grade Management System is a simple yet effective Java program that helps users track student performance by calculating average grades, letter grades, and GPA. It lays a strong foundation for further enhancements such as GUI integration, weighted grading, and multi-student support. The program achieves its core goals, providing a solid, scalable platform for student grade management.
